@@ -9,4 +9,4 @@
 ## 📂 Descripción del Repositorio  
 Este repositorio almacena todas los trabajos prácticos realizados durante la cursada de **Programación 1**.  
 
-* Se agrego cada uno de los problema del trabajo practico n°3
+* Ultimas modificacion, se agrego el TP de listas en al carpeta de funciones
