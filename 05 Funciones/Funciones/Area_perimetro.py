@@ -4,8 +4,6 @@ def calculo_area(num):
     return area
 
 def calculo_perimetro (num):
-    perimetro = 2 * 3.14 * num
-    return perimetro
 
 
 #Programa principal
