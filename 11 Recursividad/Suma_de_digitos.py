@@ -1,8 +1,6 @@
-def contar_bloques (numero):
-    if numero == 0 :
-        return 0
-    else:
-        return numero + contar_bloques(numero-1)
-    
-numero = int(input("Ingrese la numero de bloques de la base = "))
-print("Bloques totales = ",contar_bloques(numero))
+def analizar_dni(dni):
+    digitos = list(str(dni))
+    conjunto = set(digitos)
+    suma = sum(int(d) for d in digitos)
+    frecuencia = {d: digitos.count(d) for d in conjunto}
+    return conjunto, suma, frecuencia
